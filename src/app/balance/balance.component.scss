@@ -1,0 +1,56 @@
+@import "../../styles/variables";
+
+.container {
+  // padding: 3rem;
+  background-color: $Soft_red;
+  padding: 1.2rem;
+  border-radius: 15px;
+  color: $Very_pale_orange;
+  margin-bottom: 1rem;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.circle {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.circle_1,
+.circle_2 {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+.circle_1 {
+  background-color: transparent;
+  border: 2px solid white;
+  position: absolute;
+  right: 1.3rem;
+}
+.circle_2 {
+  background-color:$Dark_brown;
+}
+.text_numb {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  // line-height: 0.5;
+}
+.balance {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: $Very_pale_orange;
+}
+.balance_text {
+  font-weight: 400;
+  color: $Cream;
+}
+.in_circle {
+  display: flex;
+position: relative;
+
+}

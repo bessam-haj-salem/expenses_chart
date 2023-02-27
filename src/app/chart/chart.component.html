@@ -1,0 +1,16 @@
+<div class="container_chart" *ngIf="charts$ | async as charts">
+  <div class="chart_span" *ngFor="let chart of charts; let index = index">
+    <div class="pop_chart">
+      <div class="popin" >
+        {{ "$" + (chart.percent * 100).toFixed(0) }}
+      </div>
+      <div
+        class="chart"
+        percent
+        [percentage]="chart.percent"
+        appDataMoney [perce]="chart.percent"
+      ></div>
+    </div>
+    <span>{{ chart.day }}</span>
+  </div>
+</div>

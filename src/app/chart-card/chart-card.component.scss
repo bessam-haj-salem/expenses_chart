@@ -1,0 +1,55 @@
+ @import '../../styles/variables';
+
+.container {
+    // padding: 3rem;
+    background-color: $Very_pale_orange;
+    padding: 1.2rem;
+    border-radius: 15px;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  hr {
+    font-weight: 400;
+    color: $Cream;
+  }
+  .text_numb {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    // line-height: 0.5;
+  }
+  .balance {
+    font-weight: 700;
+    color: $Dark_brown;
+    font-size: 2rem;
+  }
+  .balance_text, .month {
+    font-weight: 400;
+    color: $Medium_brown;
+  }
+  .circle {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+  }
+  .title {
+    font-weight: 700;
+    color: $Dark_brown;
+    font-size: 1.3rem;
+    padding: 1rem 0 2rem;
+  }
+  .percentage {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .percent {
+    color: $Dark_brown;
+    font-weight: 700;
+    // font-size: 2rem;
+  }
